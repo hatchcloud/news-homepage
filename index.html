@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="/normalize.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <section id="folding" class="menu-folding"> 
+    <li>Home</li>
+    <li>News</li>
+    <li>Popular</li>
+    <li>Trending</li>
+    <li>Categories</li>
+  </section>
+  <section id="menu" class="flex justify-content-center align-center">
+    <div class="container menu flex space-between">
+      <div class="icon"></div>
+      <ul class="menu-item flex">
+        <li>Home</li>
+        <li>News</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+      <div class="menu-burger" id="menuToggle">
+        <button class=" burger" id="btnMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <section id="heroShot" class="flex justify-content-center">
+    <div class="container inline-flex gap hero">
+      <div class="heroContent">
+        <div class="heroImg"></div>
+        <div class="heroText grid gap">
+          <h1 class="font-xl no-margin">The Bright Future of Web 3.0?</h1>
+          <div class="flex flex-column space-between align-start">
+            <p class="no-margin">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="btn-primary margin-top">read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="new-box flex flex-column align-center">
+        <div class="new-box-content">
+          <h2 class="font-l color-yellow margin-top">New</h2>
+          <div class="news-item margin-top">
+            <h3 class="font-s">Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="news-item margin-top">
+            <h3 class="font-s">The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div class="news-item margin-top">
+            <h3 class="font-s">Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      
+      </div>
+
+    </div>
+  </section>
+  <section id="cards" class="flex justify-content-center">
+    <div class="container grid cards">
+      <div class="card-item">
+        <div class="img-card img-01"></div>
+        <div class="text-card">
+          <h5 class="font-m">01</h5>
+          <h6 class="font-xs">Reviving Retro PCs</h6>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <div class="img-card img-02"></div>
+        <div class="text-card">
+          <h5 class="font-m">02</h5>
+          <h6 class="font-xs">Top 10 Laptops of 2022</h6>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <div class="img-card img-03"></div>
+        <div class="text-card">
+          <h5 class="font-m">01</h5>
+          <h6 class="font-xs">The Growth of Gaming</h6>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <script type="text/javascript" src="/app.js"></script>
+</body>
+</html>
