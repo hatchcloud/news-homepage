@@ -256,7 +256,7 @@ button.azul span:nth-last-child(3) {
     padding-top: 100px;
 }
 
-.menu-folding li{
+.menu-folding nav ul li{
     text-decoration: none;
     list-style: none;
     margin-left: var(--space);  
@@ -264,7 +264,7 @@ button.azul span:nth-last-child(3) {
     margin-top: var(--space);
 }
 
-.menu-folding li:hover{
+.menu-folding nav ul li:hover{
     color: var(--lightVermillion);
     cursor: pointer;
 }
